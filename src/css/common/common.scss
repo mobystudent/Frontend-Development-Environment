@@ -1,0 +1,23 @@
+body {
+	background: $white;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+
+	&--hidden {
+		overflow: hidden;
+	}
+}
+
+.main {
+	flex: 1 0 auto;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}

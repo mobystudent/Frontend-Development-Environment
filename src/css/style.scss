@@ -1,0 +1,33 @@
+/*
+Theme Name: projectname
+Author: mobystudent
+Description:
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+//Reset
+@import "common/reset.scss";
+
+//Variables & mixins
+@import "helpers/mixins.scss";
+@import "helpers/colors.scss";
+@import "helpers/fonts.scss";
+@import "helpers/text.scss";
+
+//Defaults
+@import "common/common.scss";
+
+//Blocks
+@import "blocks/icon.scss";
+@import "blocks/logo.scss";
+@import "blocks/menu.scss";
+@import "blocks/img.scss";
+@import "blocks/container.scss";
+
+//Sections
+@import "sections/header.scss";
+@import "sections/footer.scss";
+@import "sections/section.scss";
+@import "sections/nav.scss";
