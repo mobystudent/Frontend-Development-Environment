@@ -8,13 +8,13 @@ html(lang='ru')
 
 		block title
 			
-		link(rel="favicon" href="favicon/favicon.ico")
+		include favicon
 
 		link(rel="stylesheet" href="style.min.css")
 
 		script(defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js")
 		script(defer src="js/script.min.js")
 	body
-		include sprite.pug
+		include sprite
 
 		block content
